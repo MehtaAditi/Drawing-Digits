@@ -115,7 +115,7 @@ class Model():
                     sample = weighted_pick(p)
                 else:
                     sample = np.argmax(p)
-            else:  # sampling_type == 1 default:
+            else:  # sampling_type is 1 for default:
                 sample = weighted_pick(p)
 
             pred = chars[sample]
